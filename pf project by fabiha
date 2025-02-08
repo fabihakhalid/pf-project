@@ -6,6 +6,7 @@ int patientIDs[MAX_PATIENTS];
 string patientNames[MAX_PATIENTS];
 int patientCount = 0;
 
+
 void addPatient() {
     if (patientCount >= MAX_PATIENTS) {
         cout << "Cannot add more patients. Maximum limit reached.\n";
